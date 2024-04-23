@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.plan{
+   background-color: rgb(247, 243, 244); 
+   height: 70%;
+   width: 85%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* justify-content: space-around; */
+   gap: 40px;
+   margin-top: 80px;
+   margin-left: 100px;
+   border: 2px solid black;
+   border-radius: 5px;
+
+}
+body, p,h1,h2,h3{
+    font-family: sans-serif;
+}
+.freeplan{
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    border-radius: 7px;
+   box-shadow: 0px 1px 10px 0px #00000040;
+    
+}
+.text{
+    font-size: 30px;
+    padding: 0 30px;
+    margin-top: 27px;
+}
+.pfor{
+    font-size: 18px;
+    padding-top: 5px;
+}
+.icon{
+    font-size: 23px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.para{
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    line-height: 17px;
+    letter-spacing: 0.8px;
+}
+.button-free button{
+    color: white;
+    height: 48px;
+    width: 230px;
+    background-color: black;
+    border-radius: 25px;
+    margin-top: 42px;
+    margin-left: 36px;
+    border: none;
+      
+}
+
+/* ***** */
+.basicplan{
+    height: 450px;
+    width: 300px;
+    background-color: black;
+    border-radius: 7px;
+   box-shadow: 0px 1px 10px 0px #00000040;
+
+
+}
+.texta{
+    color: white;
+    font-size: 30px;
+    padding: 0 30px;
+    margin-top: 43px;
+    font-weight: 300;
+}
+.icono {
+    font-size: 23px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+}
+.parab{
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    line-height: 17px;
+    letter-spacing: 0.8px;
+    color: white;
+}
+.button button{
+    color: black;
+    height: 48px;
+    width: 230px;
+    background-color: #ccc;
+    border-radius: 25px;
+    margin-top: 42px;
+    margin-left: 36px;
+    border: none;
+}
+/* ***** */
+.proplan{
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    border-radius: 7px;
+   box-shadow: 0px 1px 10px 0px #00000040;
+
+
+}
+.textb{
+    font-size: 30px;
+    padding: 0 30px;
+    margin-top: 43px;
+}
+.pfor{
+    font-size: 18px;
+    padding-top: 5px;
+}
+.iconb{
+    font-size: 23px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.parac{
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    line-height: 17px;
+    letter-spacing: 0.8px;
+}
+.button-freeb button{
+    color: white;
+    height: 48px;
+    width: 230px;
+    background-color: black;
+    border-radius: 25px;
+    margin-top: 42px;
+    margin-left: 36px;
+    border: none;
+      
+}
+
+

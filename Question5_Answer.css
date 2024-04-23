@@ -1,0 +1,176 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* container */
+    .main-container{
+    max-width: 1440px;
+    min-width: 1024px;
+    max-height: 1100px;
+    margin: 0 auto;
+    display: flex;
+    font-family: sans-serif;
+    }
+    /* right section */
+    .right-container{
+    width: 40%;
+    height: 100%;
+    }
+    .right-container img{
+    height: 100%;
+    width: 100%;
+    }
+
+    /* left section */
+    .left-container{
+    width: 60%;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    }
+
+    /* navigation section */
+    nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    }
+    .logos-container{
+    display: flex;
+    gap: 20px;
+    }
+    .logos-container img{
+    height: 65px;
+    width: 65px;
+    }
+    .nav-container{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    }
+    .nav-container ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    }
+    .nav-container li{
+    cursor: pointer;
+    }
+    .nav-container button{
+    padding: 8px 15px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    .nav-container .selected{
+    background-color:#FB792B;
+    border-color: #FB792B;
+    color: white;
+    }
+
+    /* main section */
+    main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    }
+    main .header-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+    main .header-sub-title{
+    display: flex;
+    gap: 15px;
+    font-size: 29px;
+    }
+    main .header-sub-title span:first-child{
+        color: #01BB0A;
+    }
+    main .header-sub-title span:nth-child(2){
+        color: #FB792B;
+    }
+    main .header-sub-title span:last-child{
+        color: #213D77;
+    }
+    main .select-container{
+    display: flex;
+    gap: 15px;
+    }
+    main .select-container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 37px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+    main .select-container .selected{
+    border-color:#213D77 ;
+    background-color: #213D77;
+    color: white;
+    }
+    
+    main .journey-details-box{
+    border: 1px solid lightgray;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    main .card-element{
+    display: flex;
+    align-items: center;
+    
+    }
+    .card-image img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    }
+    main .select-option{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    }
+    main .location span{
+    font-size: 12px;
+    color: gray;
+    }
+    main .dropdown{
+    display: flex;
+    align-items: center;
+    color:gray;
+    }
+
+    /* search train button */
+    .search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-weight: 800;
+    background-color: #01BB0A;
+    padding: 15px 0;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }

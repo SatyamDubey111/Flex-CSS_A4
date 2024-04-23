@@ -1,0 +1,10 @@
+Ans -> Justify-content is a CSS property used in Flexbox layouts to align flex items along the main axis of the container. It Determines how extra space is distributed between and around flex items when they do not occupy all the avaiable space on the main axis.
+
+Here are the pissible values for the justify-content property:
+
+1.flex-start: Flex items are packed toward the start of the main axis.
+2.flex-end: Flex items are packed toward the end of main axis.
+3.center: flex items are centered along the main axis.
+4.space-between: Flex items are evenly distributed along the main axis. The firdt item os aligned to the start of the container, and the last is aligned to the end of the container,while the remaining space is evenly distributed between items.
+5.space-around: flex items are evenly distributed along the main axis with equal space around them. this means that the space before the first item and after the last item is half of the size of the space between the items.
+6.space-evenly: Flex items are evenly distributed along the main axis with equal space arround them, including the space before the first items and after the last item.
